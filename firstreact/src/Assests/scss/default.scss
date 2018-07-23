@@ -1,0 +1,70 @@
+header {
+    display: block;
+    width :100%;
+    background:black;
+    color:white;
+    height:80px;
+
+    nav {
+      position: absolute;
+      right: 15px;
+    }
+
+    ul li{
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+}
+
+footer{
+  display: block;
+  width :100%;
+  background:black;
+  color:white;
+  height:80px;
+
+
+  nav2 {
+    position: absolute;
+    right: 15px;
+    }
+
+  ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-right: 10px;
+
+  }
+
+}
+
+Image {
+  .top-left {
+      position: absolute;
+      color: white;
+      top: 200px;
+      color:black;
+      font-weight: bold;
+  }
+  ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+
+  img:hover{
+    opacity: 0.5
+  }
+}
+
+Family {
+
+.fam img {
+  height: 300px;
+  width:500px;
+}
+
+}

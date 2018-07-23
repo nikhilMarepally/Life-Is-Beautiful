@@ -1,0 +1,86 @@
+.login .split {
+
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.login .left {
+  left: 0;
+  background-color: #000001;
+}
+
+
+.login .right {
+  right: 0;
+  background-color: orange;
+}
+
+.login .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding:25px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.login  .centered .button{
+    width:20px;
+    background-color: green;
+}
+.login .log{
+
+padding:30px 25px;
+width:350px;
+background: white;
+margin:20px auto;
+border: 1px solid #c4c4c4;
+
+}
+.login-title {
+    font-size:medium;
+    color: #ADADAD;
+    text-align:center;
+    background: #f7f7f7;
+    height:60px;
+    padding-top: 10%;
+
+}
+.login-input {
+  width: 285px;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left:10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+  }
+.login-button {
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background: #f0776c;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  outline:0;
+}
+
+.centered .img {
+  width:80%;
+  height:100%;
+
+}
